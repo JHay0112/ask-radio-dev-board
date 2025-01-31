@@ -1,2 +1,6 @@
 ~*
 *.lck
+*-backups/*
+*.zip
+*.kicad_prl
+*.bak
