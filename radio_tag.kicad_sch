@@ -119,7 +119,7 @@
 				)
 			)
 		)
-		(symbol "Device:Antenna_Dipole"
+		(symbol "Device:Antenna"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
@@ -127,19 +127,21 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "AE"
-				(at 1.27 1.27 0)
+				(at -1.905 1.905 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right)
 				)
 			)
-			(property "Value" "Antenna_Dipole"
-				(at 1.27 0 0)
+			(property "Value" "Antenna"
+				(at -1.905 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right)
 				)
 			)
 			(property "Footprint" ""
@@ -160,7 +162,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Dipole antenna"
+			(property "Description" "Antenna"
 				(at 0 0 0)
 				(effects
 					(font
@@ -169,7 +171,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "dipole antenna"
+			(property "ki_keywords" "antenna"
 				(at 0 0 0)
 				(effects
 					(font
@@ -178,11 +180,22 @@
 					(hide yes)
 				)
 			)
-			(symbol "Antenna_Dipole_0_1"
+			(symbol "Antenna_0_1"
 				(polyline
 					(pts
-						(xy 2.54 -3.81) (xy 2.54 -2.54) (xy 5.08 -2.54) (xy 5.08 -1.27) (xy -2.54 -1.27) (xy -2.54 -2.54)
-						(xy 0 -2.54) (xy 0 -3.81)
+						(xy 0 2.54) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0 -2.54) (xy -1.27 2.54)
 					)
 					(stroke
 						(width 0.254)
@@ -193,11 +206,11 @@
 					)
 				)
 			)
-			(symbol "Antenna_Dipole_1_1"
+			(symbol "Antenna_1_1"
 				(pin input line
 					(at 0 -5.08 90)
 					(length 2.54)
-					(name "~"
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -205,24 +218,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1576,12 +1571,6 @@
 		(uuid "b59292d7-6a45-4681-bd24-8177550e18a7")
 	)
 	(junction
-		(at 245.11 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "be39e3d9-0c65-4021-a684-9298f9c7dd79")
-	)
-	(junction
 		(at 107.95 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1885,13 +1874,13 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 102.87) (xy 245.11 102.87)
+			(xy 245.11 97.79) (xy 245.11 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "56dc483e-032b-4622-b0c5-a1d5c1389a22")
+		(uuid "54ffade5-fdb9-479a-944c-537d987cbcca")
 	)
 	(wire
 		(pts
@@ -2095,7 +2084,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 100.33) (xy 247.65 100.33)
+			(xy 232.41 100.33) (xy 245.11 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2232,16 +2221,6 @@
 			(type default)
 		)
 		(uuid "da3a75bf-336e-4e3c-b23b-3d49b8baf8d8")
-	)
-	(wire
-		(pts
-			(xy 245.11 102.87) (xy 245.11 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "daacc652-721a-43cd-b435-68f05a7de623")
 	)
 	(wire
 		(pts
@@ -4516,17 +4495,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Antenna_Dipole")
-		(at 252.73 100.33 270)
+		(lib_id "Device:Antenna")
+		(at 245.11 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9117d26-45e2-472f-b510-b996f08b16b5")
 		(property "Reference" "AE1"
-			(at 252.73 101.5999 90)
+			(at 247.65 93.3449 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4535,7 +4514,7 @@
 			)
 		)
 		(property "Value" "Antenna_Dipole"
-			(at 252.73 102.8699 90)
+			(at 247.6499 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4544,8 +4523,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 252.73 100.33 0)
+		(property "Footprint" "rf:TE_ANT-433-HETH"
+			(at 245.11 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4554,7 +4533,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 252.73 100.33 0)
+			(at 245.11 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4562,8 +4541,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dipole antenna"
-			(at 252.73 100.33 0)
+		(property "Description" "Antenna"
+			(at 245.11 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4571,8 +4550,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier " "~"
-			(at 252.73 100.33 0)
+		(property "Supplier " "Digi-Key"
+			(at 245.11 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4580,8 +4559,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "~"
-			(at 252.73 100.33 0)
+		(property "Manufacturer" "TE Connectivity"
+			(at 245.11 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4589,8 +4568,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer PN" "~"
-			(at 252.73 100.33 0)
+		(property "Manufacturer PN" "ANT-433-HETH"
+			(at 245.11 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4598,17 +4577,14 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "~"
-			(at 252.73 100.33 0)
+		(property "Supplier PN" "ANT-433-HETH-ND"
+			(at 245.11 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "fcdd20d3-57ca-4ef1-927c-b8f2373a191b")
 		)
 		(pin "1"
 			(uuid "c2e1bd7b-15e9-4181-b3fb-0a214419f079")

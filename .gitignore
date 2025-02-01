@@ -5,3 +5,6 @@
 *.kicad_prl
 *.bak
 *-cache
+_autosave-*
+\#auto_saved_files\#
+models/*

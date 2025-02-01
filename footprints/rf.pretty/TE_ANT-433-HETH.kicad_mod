@@ -1,0 +1,150 @@
+(footprint "TE_ANT-433-HETH"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 19.049999 -6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b16f5b01-ea30-46fe-9e74-4bdfe9956421")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "TE_ANT-433-HETH"
+		(at 18.5 -0.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7c1a6ad9-5bcc-4dd6-9943-eb25beec314a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f19b83b9-f0c3-4080-a73f-cce0bfed6994")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3404b246-a295-4b13-b20a-c6db4d9d9dea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8dda7ce9-661e-49c6-9d42-f8009726a012")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -3 -5)
+		(end 41 5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "d4f59920-b2d3-4bbc-9a5c-7fbf75d853c8")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 18.5 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4ca45a5d-2c9c-4209-ab8a-fd4a279d5a5a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 3.81 7.62)
+		(drill 1.52)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1640419948)
+		(uuid "c653449d-0131-435a-9b53-8ee9d34cc7af")
+	)
+	(pad "NC" thru_hole roundrect
+		(at 38.1 0)
+		(size 3.81 7.62)
+		(drill 1.52)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1640419948)
+		(uuid "2c6f6cc7-92ba-46c9-a604-b35c4b41b82e")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "*.Cu")
+		(uuid "4d1034d7-88e5-4658-b96a-d2930d7d079b")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints not_allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -4 -17) (xy 42 -17) (xy 42 17) (xy -4 17)
+			)
+		)
+	)
+	(model "${KIPRJMOD}/models/TE_ANT-433-HETH.step"
+		(offset
+			(xyz 19 0 2.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
