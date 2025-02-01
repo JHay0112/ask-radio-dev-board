@@ -4544,7 +4544,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "RF_Antenna:Texas_SWRA117D_2.4GHz_Left"
+		(property "Footprint" ""
 			(at 252.73 100.33 0)
 			(effects
 				(font
