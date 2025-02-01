@@ -2574,7 +2574,7 @@
 				)
 			)
 		)
-		(property "Value" "10p"
+		(property "Value" "12p"
 			(at 201.93 95.25 90)
 			(effects
 				(font
@@ -2618,7 +2618,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-mechanics"
+		(property "Manufacturer" "Cal-Chip Electronics"
 			(at 201.93 100.33 0)
 			(effects
 				(font
@@ -2627,7 +2627,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer PN" "CL21C100CBANNNC"
+		(property "Manufacturer PN" "CHV0805N250120FCT"
 			(at 201.93 100.33 0)
 			(effects
 				(font
@@ -2636,7 +2636,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "1276-2561-1-ND"
+		(property "Supplier PN" "4713-CHV0805N250120FCT-ND"
 			(at 201.93 100.33 0)
 			(effects
 				(font
@@ -3787,7 +3787,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "6p8"
+		(property "Value" "4p7"
 			(at 236.22 116.8399 0)
 			(effects
 				(font
@@ -3832,7 +3832,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "Cal-Chip Electronics"
 			(at 232.41 115.57 0)
 			(effects
 				(font
@@ -3841,7 +3841,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer PN" "CC0805CRNPO9BN6R8"
+		(property "Manufacturer PN" "CHV0805N2504R7CCT"
 			(at 232.41 115.57 0)
 			(effects
 				(font
@@ -3850,7 +3850,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "311-1831-1-ND"
+		(property "Supplier PN" "4713-CHV0805N2504R7CCT-ND"
 			(at 232.41 115.57 0)
 			(effects
 				(font
@@ -4324,7 +4324,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "9M84375"
+		(property "Value" "13M560"
 			(at 140.97 115.5699 90)
 			(effects
 				(font
@@ -4360,7 +4360,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "ECS"
+		(property "Manufacturer" "Abracon"
 			(at 137.16 114.3 90)
 			(effects
 				(font
@@ -4369,7 +4369,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer PN" "ECS-98.4375-CDX-0314-TR"
+		(property "Manufacturer PN" "ABLS-13.560MHZ-10-R20-D-T"
 			(at 137.16 114.3 90)
 			(effects
 				(font
@@ -4387,7 +4387,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "XC1026CT-ND"
+		(property "Supplier PN" "535-9687-1-ND"
 			(at 137.16 114.3 90)
 			(effects
 				(font
@@ -4429,7 +4429,7 @@
 				)
 			)
 		)
-		(property "Value" "150n"
+		(property "Value" "68n"
 			(at 226.06 97.79 90)
 			(effects
 				(font
@@ -4473,7 +4473,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Pulse Electronics"
+		(property "Manufacturer" "Johanson Technology"
 			(at 226.06 100.33 0)
 			(effects
 				(font
@@ -4482,7 +4482,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer PN" "BSCH00100505R15JCS"
+		(property "Manufacturer PN" "LRC0603CJ68NGV001T"
 			(at 226.06 100.33 0)
 			(effects
 				(font
@@ -4491,7 +4491,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "553-BSCH00100505R15JCSCT-ND"
+		(property "Supplier PN" "712-LRC0603CJ68NGV001TCT-ND"
 			(at 226.06 100.33 0)
 			(effects
 				(font

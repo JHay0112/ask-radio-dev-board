@@ -904,7 +904,7 @@
 				)
 			)
 		)
-		(property "Value" "6p8"
+		(property "Value" "4p7"
 			(at 0 1.68 90)
 			(layer "F.Fab")
 			(uuid "b4620ec8-3bf8-450d-9646-244ee4e23a23")
@@ -967,7 +967,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "Cal-Chip Electronics"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -980,7 +980,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "CC0805CRNPO9BN6R8"
+		(property "Manufacturer PN" "CHV0805N2504R7CCT"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -993,7 +993,7 @@
 				)
 			)
 		)
-		(property "Supplier PN" "311-1831-1-ND"
+		(property "Supplier PN" "4713-CHV0805N2504R7CCT-ND"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1169,7 +1169,7 @@
 				)
 			)
 		)
-		(property "Value" "10p"
+		(property "Value" "12p"
 			(at 0 1.68 0)
 			(layer "F.Fab")
 			(uuid "8c7c8205-19c8-4116-ac74-9cf2e46b20f7")
@@ -1232,7 +1232,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-mechanics"
+		(property "Manufacturer" "Cal-Chip Electronics"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1245,7 +1245,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "CL21C100CBANNNC"
+		(property "Manufacturer PN" "CHV0805N250120FCT"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1258,7 +1258,7 @@
 				)
 			)
 		)
-		(property "Supplier PN" "1276-2561-1-ND"
+		(property "Supplier PN" "4713-CHV0805N250120FCT-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1434,7 +1434,7 @@
 				)
 			)
 		)
-		(property "Value" "9M84375"
+		(property "Value" "13M560"
 			(at 0 3.55 0)
 			(layer "F.Fab")
 			(uuid "9429f4cb-95b2-41ef-9b51-bb9aa1502f0a")
@@ -1484,7 +1484,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "ECS"
+		(property "Manufacturer" "Abracon"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1497,7 +1497,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "ECS-98.4375-CDX-0314-TR"
+		(property "Manufacturer PN" "ABLS-13.560MHZ-10-R20-D-T"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1523,7 +1523,7 @@
 				)
 			)
 		)
-		(property "Supplier PN" "XC1026CT-ND"
+		(property "Supplier PN" "535-9687-1-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3577,7 +3577,7 @@
 				)
 			)
 		)
-		(property "Value" "150n"
+		(property "Value" "68n"
 			(at 0 1.55 0)
 			(layer "F.Fab")
 			(uuid "f2bd8b39-3636-40b2-8338-0a643e8ca5a2")
@@ -3640,7 +3640,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Pulse Electronics"
+		(property "Manufacturer" "Johanson Technology"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3653,7 +3653,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "BSCH00100505R15JCS"
+		(property "Manufacturer PN" "LRC0603CJ68NGV001T"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3666,7 +3666,7 @@
 				)
 			)
 		)
-		(property "Supplier PN" "553-BSCH00100505R15JCSCT-ND"
+		(property "Supplier PN" "712-LRC0603CJ68NGV001TCT-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
